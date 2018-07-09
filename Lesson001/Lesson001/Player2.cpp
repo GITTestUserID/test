@@ -37,6 +37,6 @@ void Player2::SetDamage(int damege) {
 // Ÿ‚¿”‚Í‚»‚ê‚¼‚ê Player1:p1r  Player2:p2r ‚Åæ“¾‚Å‚«‚Ü‚·B
 JANKEN Player2::Attack() {
 	JANKEN janken[] = { GU,CHYOKI,PA };
-
-	return janken[rand() % 3];
+	int count = 0;
+	return janken[(count++)%3];
 }
