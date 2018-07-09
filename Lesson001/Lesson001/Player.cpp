@@ -23,6 +23,7 @@ void Player::SetDamage(int damege) {
 
 JANKEN Player::Attack() {
 	JANKEN JA=GU;
+
 	return JA;
 }
 
